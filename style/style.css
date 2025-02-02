@@ -223,3 +223,32 @@ border-radius: 5px;
     
 
 }
+
+/* coming soon */
+
+.coming-soon-container
+{
+    width: 1320px;
+height: 463px;
+border: 2px solid red;
+margin: 0 auto;
+display: flex;
+}
+
+.coming-soon-container .text
+{
+    width: 33.3%;
+    border: 2px solid green;
+}
+
+.coming-soon-container .imgg
+{
+    width: 33.5%;
+    border: 2px solid green;
+}
+
+.coming-soon-container .text2
+{
+    width: 33.3%;
+    border: 2px solid green;
+}
