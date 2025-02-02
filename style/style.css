@@ -99,4 +99,81 @@ font-weight: 900;
 {
   height: 100%;
   width: 100%;
+} 
+
+/* midnight section starts here */ 
+
+.midnight-party-container
+{
+    width: 1320px;
+height: 600px;
+ 
+margin: 0 auto;
+display: flex;
+background-image: url('/resources/Vectorrr.png');
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat; 
+background-color: rgba(0,0,0,0.5);
+background-blend-mode: overlay;
+} 
+
+.left-side-content
+{
+    width: 50%;
+    height: 600px;
+ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+.right-side-content
+{
+    width: 50%;
+    height: 600px;
+ 
+} 
+
+.left-side-content h1
+{
+    color: rgb(255, 249, 249);
+    font-family: Merriweather;
+    font-size: 54px;
+    font-weight: 900;
+ 
+} 
+
+.left-side-content p
+{ 
+    color: rgba(255, 254, 254, 0.8);
+font-family: Inter;
+font-size: 18px;
+font-weight: 400;
+text-align: left;
+margin-left: 120px;
+margin-top: 20px;
+}
+
+  .button
+{
+   color: white;
+    width: 103px;
+    height: 24px;
+    text-align: left;
+    margin-top: 50px;
+    margin-right: 250px;
+} 
+
+
+ 
+
+.right-side-content 
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+
+} 
