@@ -230,7 +230,7 @@ border-radius: 5px;
 {
     width: 1320px;
 height: 463px;
-border: 2px solid red;
+ 
 margin: 0 auto;
 display: flex;
 }
@@ -238,17 +238,86 @@ display: flex;
 .coming-soon-container .text
 {
     width: 33.3%;
-    border: 2px solid green;
+  
+   
+     
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}  
+
+.coming-soon-container .text h4{
+    width: 207px;
+height: 29px;
+color: red;
+font-size: 20px;
+margin-right: 110px;
 }
 
+.coming-soon-container .text h3{
+    width: 328px;
+    height: 60px;
+    font-size: 48px;
+font-weight: 900;
+}
+
+.coming-soon-container .text p{
+    
+    font-size: 20px;
+    font-weight: 400;
+    height: 128px;
+    margin-top: 22px;
+    margin-left: 55px;
+
+}
+
+
+ 
 .coming-soon-container .imgg
 {
     width: 33.5%;
-    border: 2px solid green;
+  
+   
+    height: 463px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* box-sizing: border-box;
+ 
+    border: 5px solid rgb(255, 0, 0); */
 }
 
 .coming-soon-container .text2
 {
     width: 33.3%;
-    border: 2px solid green;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.coming-soon-container .text2 h3{
+    font-size: 48px;
+font-weight: 700;
+color: red;
+margin-right: 170px;
+}
+.coming-soon-container .text2 P
+{
+    font-size: 20px;
+font-weight: 400;
+margin-top: 10px;
+margin-left: 80px;
+}
+.coming-soon-container .text2 img
+{
+    width: 102.4px;
+    height: 132.79px;
+    margin-top: 30px;
+    margin-right: 190px;
 }
