@@ -321,3 +321,44 @@ margin-left: 80px;
     margin-top: 30px;
     margin-right: 190px;
 }
+/* holiday-section */
+
+.holiday .texts 
+{
+    border: 2px solid red;
+    width: 1068px;
+height: 260px;
+margin: 0 auto;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.holiday .texts h5{
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+  
+}
+.holiday .texts h3{
+    width: 677px;
+    height: 91px;
+    font-family: Merriweather;
+font-size: 72px;
+font-weight: 900;
+margin-top: 20px;
+margin-bottom: 10px;
+  
+}
+.holiday .texts p{
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+  
+}
+ 
+.holiday .texts .red-holiday
+{
+     color: red;
+}
