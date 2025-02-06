@@ -422,3 +422,35 @@ right: 100%;
     bottom: 60%;
     left: 8%;
 }
+
+.portfolio-container
+{
+    width: 1320px;
+    height: 1163px;
+    
+    margin: 0 auto;
+
+}
+
+.portfolio-container .portfolio-text h5
+{
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    color: rgb(255, 0, 0);
+}
+.portfolio-container .portfolio-text h3
+{
+    color: rgb(7, 2, 17);
+font-family: Merriweather;
+font-size: 48px;
+font-weight: 900;
+}
+.portfolio-container .portfolio-text p
+{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 10px;
+}
