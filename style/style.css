@@ -333,6 +333,20 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
+position: relative;
+}
+.holiday-container
+{
+    
+    width: 1320px;
+    height: 986.07px;
+margin: 0 auto;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+position: relative;
+ 
 }
 
 
@@ -340,6 +354,7 @@ align-items: center;
     font-family: Inter;
     font-size: 24px;
     font-weight: 500;
+    
   
 }
 
@@ -366,4 +381,44 @@ margin-bottom: 10px;
      color: red;
 }
 
+
+.solid-color
+{
+    width: 1320px;
+height: 229px;
+background-color: red;
+margin: 0 auto;
+top: 60%;
+position: absolute;
+}
  
+.gift-box
+{
+    width: 674.82px;
+height: 577.96px;
+position: relative;
+z-index: 1;
+display: flex;
+margin-right: 700px;
+justify-content: space-between;
+align-items: center;
+}
+
+.girl-container
+{
+    width: 400px;
+height: 400px;
+right: 100%;
+ top: 70%;
+ margin-bottom: 180px;
+ margin-left: 122px;
+
+ 
+}
+
+.discount
+{
+    position:  relative;
+    bottom: 60%;
+    left: 8%;
+}
