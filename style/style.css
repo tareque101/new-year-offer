@@ -467,3 +467,116 @@ font-weight: 900;
  grid-template-columns: repeat(3,1fr);
  gap: 10px;
 }
+
+/* subscribe section */
+
+.subscribe-section .msg{
+
+    width: 131.25px;
+height: 137.52px;
+
+}
+.subscribe-section .txt h2{
+/* 
+    width: 512px;
+    height: 60px; */
+    color: rgb(7, 2, 17);
+font-family: Merriweather;
+font-size: 48px;
+font-weight: 900;
+margin-top: 30px;
+width: 512px;
+height: 60px;
+text-align:center;
+margin-left: 300px;
+
+}
+.subscribe-section .txt p{
+
+    /* width: 896px;
+height: 64px; */
+color: rgba(7, 2, 17, 0.6);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+margin-top: 30px;
+
+}
+.subscribe-section .srch {
+  
+
+    border: 5px solid red;
+ 
+    width: 648px;
+    height: 72px;
+    border-radius: 50px;
+background: rgb(255, 255, 255);
+margin-top: 40px;
+}
+.subscribe-section .srch1 {
+  
+
+     
+ 
+    width: 200px;
+    height: 72px;
+    border-radius: 50px;
+background: rgb(205, 16, 16);
+margin-top: 40px;
+position: absolute;
+margin-left: 450px;
+color: red;
+ 
+}
+.subscribe-section .srch-parent {
+  
+ display: flex;
+ align-items: flex-start;
+ position: relative;
+
+}
+ 
+
+.subscribe-section
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background: rgba(255, 0, 0, 0.05);
+    width: 1320px;
+height: 616px;
+}
+
+.footer-container
+{
+    width: 1600px;
+height: 609px;
+ 
+margin: 0 auto;
+background: rgb(7, 2, 17);
+margin-top: 120px;
+display: flex;
+justify-content: space-around;
+/* color: azure; */
+}
+ .footer-section-first p
+{  
+    width: 375px;
+height: 80px;
+color: azure;
+
+} 
+
+.footer-section-first
+{
+    display: flex;
+  
+}
+
+.contact
+{
+    color: white;
+    display: flex;
+}
