@@ -334,6 +334,7 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 position: relative;
+ 
 }
 .holiday-container
 {
@@ -355,6 +356,10 @@ position: relative;
     font-size: 24px;
     font-weight: 500;
     
+  
+}
+.holiday-container .texts h4{
+  margin-top: 90px;
   
 }
 
@@ -453,4 +458,12 @@ font-weight: 900;
     font-size: 20px;
     font-weight: 400;
     margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.portfolio-items
+{
+ display: grid;
+ grid-template-columns: repeat(3,1fr);
+ gap: 10px;
 }
